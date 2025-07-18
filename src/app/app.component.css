@@ -1,0 +1,50 @@
+.header {
+  background-color: #111;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #1da1f2;
+}
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: transform 0.2s ease-in-out, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #1da1f2;
+}
+
+.footer p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}

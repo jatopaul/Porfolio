@@ -1,0 +1,19 @@
+<div class="lang-toggle">
+  <button (click)="toggleLang()">🌐 {{ currentLang === 'en' ? 'Malayalam' : 'English' }}</button>
+</div>
+
+<div class="hero-container">
+  <div class="half left">
+    <h1>{{ 'DESIGNER' | translate }}</h1>
+    <p>{{ 'DESIGNER_TEXT' | translate }}</p>
+  </div>
+
+  <div class="image-center">
+    <img src="assets/profile-image.png" alt="Profile" />
+  </div>
+
+  <div class="half right">
+    <h1>{{ 'CODER' | translate }}</h1>
+    <p>{{ 'CODER_TEXT' | translate }}</p>
+  </div>
+</div>
